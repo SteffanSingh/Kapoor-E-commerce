@@ -1,0 +1,185 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.logo-name{
+  color: blue;
+}
+.logo-name1{
+  color:fuchsia;
+}
+header{
+  display: flex;
+  justify-content: space-around;
+  
+}
+.header{
+  background-color:blanchedalmond;
+}
+.nav{
+  font-weight: bold;
+  margin-left: 60px;
+  margin-right: 60px;
+  cursor: pointer;
+ 
+}
+ 
+nav{
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+ 
+}
+.nav-section{
+  box-shadow: 5px 5px 10px red;
+}
+.right-header{
+  margin: 30px;
+}
+.dropdown{
+  margin-right: 20px;
+  width: 150px;
+  padding: 5px;
+   
+}
+a{
+  cursor: pointer;
+  color: blue;
+}
+.login{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.login-input{
+  width: 200px;
+   margin-left: 550px;
+   margin-bottom: 20px;
+}
+.star-image{
+  color: red;
+   
+}
+ 
+.login-btn:hover{
+  color: red;
+}
+.login-btn{
+  background-color: rgb(0, 119, 255);
+  color: white;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  border: none;
+
+  cursor: pointer;
+}
+.login-block{
+  background-color: azure;
+  
+  padding-bottom: 200px;
+
+}
+.login-component{
+  background-color:aquamarine;
+}
+ .login-box{
+  color: red;
+  font-size: 50px;
+ }
+ svg{
+  cursor: pointer;
+ }
+ svg:hover{
+  color: red;
+ }
+
+ .signup{
+  color: red;
+ }
+ .signup-block{
+  background-color: aliceblue;
+  padding-bottom: 100px;
+ }
+ .field{
+  margin: 5px;
+  padding: 2px;
+  width: 300px;
+ }
+ .signup-btn{
+  width: 200px;
+  background-color: yellow;
+  border: none;
+  border-radius: 2px;
+  color:blue
+ }
+ 
+ a{
+  font-weight: bold;
+  text-decoration: underline;
+ }
+ a:hover{
+  color: red;
+ }
+ button:hover{
+  cursor: pointer;
+  color: red;
+ }
+ .nav:hover{
+  color: red;
+ }
+
+ .shopping-block{
+  background-color:antiquewhite;
+  padding-bottom: 500px;
+ }
+
+ 
+ .shopping-name{
+  color: blue;
+ }
+
+
+  .product.items{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+     
+  }
+
+  .product.items >div{
+    flex-basis: calc(20%-40px);
+  }
+  .row{
+    display:flex;
+  }
+  .container{
+    display:flex;
+    }
+     
+     
+  .card-box{
+    margin-top: 20px;
+    
+    
+  }
+  .card-title{
+    height: 150px;
+    font-size: 5px;
+  }
+  .rate{
+    color:red
+  }
+   
+  
